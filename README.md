@@ -7,7 +7,7 @@ A software platform to serve up delicious puns to the world. (Actually: a quick 
 Naturally, it's made up of many services in a monorepo:
 
 * [pung](pung) - A binary that produces random puns
-* [puntastic](puntastic) - A web interface that `pung` serves up puns in delicious Comic Neue
+* [puntastic](puntastic) - A web interface that uses `pung` to serve up wisdom
 
 ## Running
 
