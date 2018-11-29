@@ -1,0 +1,21 @@
+:root {
+  font-size: 32px;
+  font-family: "Comic Neue Angular";
+  text-align: center;
+  background-color: rgb(34,34,34);
+  color: rgb(239,218,98);
+}
+
+html, body, p {
+  margin: 0;
+}
+body {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+p {
+  width: 100%;
+}

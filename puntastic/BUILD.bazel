@@ -1,0 +1,11 @@
+# TODO: build //pung:pung into bin/pung
+# TODO: fix so `bazel run //puntastic` works
+
+sh_binary(
+  name = 'puntastic',
+  srcs = ['puntastic.sh'],
+  data = glob([
+    "bin/*",
+    "server/**/*",
+  ])
+)
